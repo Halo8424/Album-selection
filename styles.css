@@ -76,9 +76,24 @@ h3{
       overflow: hidden;
       cursor: pointer;
       margin: 10px 0;
-      display: none;
+      /* display: none; */
   }
 
   .notify.active{
       display: block;
   }
+
+  .notify:first-child{
+      margin: 0 0 10px 0;
+  }
+
+  .circle{
+      width: 28px;
+      height: 20px;
+      display: block;
+      border-radius: 100%;
+      transform: translate(17px, 17px);
+      color: whitesmoke;
+      padding: 10px 0 10px 13px;
+  }
+
