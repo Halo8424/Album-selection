@@ -37,3 +37,13 @@ h3{
     margin: 15px 2.5%;
     cursor: pointer;
 }
+
+.album.selected{
+    -webkit-box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
+  -moz-box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
+  box-shadow: 0px 0px 161px -5px rgba(48,131,255,1);
+  }
+
+  .album img{
+      width: 100%;
+  }
