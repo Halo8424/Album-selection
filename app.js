@@ -14,9 +14,10 @@ while( i < albums.length){
         let albumTitle = this.querySelector(".title").textContent;
         
         if(this.classList.contains("selected") !== true){
-            console.log("does not have the selected class");
+            this.classList.add("selected");
+            
         } else{
-            console.log("Yes this element has a class of selected");
+            this.classList.remove("selected");
         }
     }
     console.log(i)
