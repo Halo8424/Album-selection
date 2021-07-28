@@ -11,7 +11,11 @@ const albumsSelected=[];
 let i = 0;
 while( i < albums.length){
     albums[i].onclick = function(e){
-        console.log('clicked an album');
+        let albumTitle = this.querySelector(".title").textContent;
+        
+        if(this.classList.contains("selected") !== true){
+            console.log("does not have the selected class");
+        }
     }
     console.log(i)
     i++
