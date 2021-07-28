@@ -47,3 +47,10 @@ h3{
   .album img{
       width: 100%;
   }
+
+  .album .title{
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: capitalize;
+      text-align: center;
+  }
