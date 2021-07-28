@@ -32,6 +32,11 @@ while (i < albums.length) {
 saveBtn.onclick = function () {
   itemsTotal.textContent = albumsSelected.length + " items saved";
   notify.classList.add("active");
+
+  // to remove the notification
+  setTimeout(function(){
+    notify.classList.remove("active");
+  }, 2000)
   console.log("saved");
 };
 
