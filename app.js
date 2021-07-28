@@ -15,6 +15,8 @@ while( i < albums.length){
         
         if(this.classList.contains("selected") !== true){
             console.log("does not have the selected class");
+        } else{
+            console.log("Yes this element has a class of selected");
         }
     }
     console.log(i)
