@@ -15,12 +15,14 @@ while( i < albums.length){
         
         if(this.classList.contains("selected") !== true){
             this.classList.add("selected");
+            albumsSelected.push(albumTitle);
             
         } else{
             this.classList.remove("selected");
         }
+      console.log(albumsSelected);  
     }
-    console.log(i)
+    
     i++
 };
 
