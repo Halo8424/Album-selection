@@ -1,6 +1,10 @@
 // Global Variables
 const notify = document.querySelector(".notify");
     console.log(notify);
+const albums = document.querySelectorAll(".album");
+    console.log(albums);
+const itemsTotal = document.querySelector(".items-total");
+const saveBtn = document.querySelector(".button");
 
 
 
