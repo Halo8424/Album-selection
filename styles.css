@@ -21,3 +21,8 @@ h3{
     display: inline-block;
     cursor: pointer;
 }
+
+.albums{
+    width: 95%;
+    margin: 0 auto;
+}
