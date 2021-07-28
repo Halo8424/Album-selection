@@ -27,7 +27,7 @@ while (i < albums.length) {
   };
 
   i++;
-}
+} 
 
 saveBtn.onclick = function () {
   itemsTotal.textContent = albumsSelected.length + " items saved";
