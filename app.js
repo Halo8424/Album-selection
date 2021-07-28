@@ -7,7 +7,7 @@ const itemsTotal = document.querySelector(".items-total");
 const saveBtn = document.querySelector(".button");
 
 
-const albumsSelected=[];
+let albumsSelected=[];
 let i = 0;
 while( i < albums.length){
     albums[i].onclick = function(e){
@@ -19,6 +19,9 @@ while( i < albums.length){
             
         } else{
             this.classList.remove("selected");
+            albumsSelected = albumsSelected.filter(function(item) {
+                return item !== albumTitle
+            });
         }
       console.log(albumsSelected);  
     }
