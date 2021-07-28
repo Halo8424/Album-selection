@@ -15,10 +15,12 @@ while( i < albums.length){
         
         if(this.classList.contains("selected") !== true){
             this.classList.add("selected");
+            // pushing album title to array
             albumsSelected.push(albumTitle);
             
         } else{
             this.classList.remove("selected");
+            // to remove the album title from the array 
             albumsSelected = albumsSelected.filter(function(item) {
                 return item !== albumTitle
             });
@@ -29,7 +31,9 @@ while( i < albums.length){
     i++
 };
 
-
+saveBtn.onclick = function(){
+    console.log('saved')
+};
 
 
 // Click album 
