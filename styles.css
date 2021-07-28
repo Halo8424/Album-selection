@@ -26,3 +26,14 @@ h3{
     width: 95%;
     margin: 0 auto;
 }
+
+.album{
+    max-width: 20%;
+    background: #fff;
+    padding: 15px;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    margin: 15px 2.5%;
+    cursor: pointer;
+}
