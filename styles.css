@@ -120,4 +120,10 @@ h3{
   .bl > .info span:first-child {
     color: #225877;
   }
-  
+
+  .info{
+      width: 230px;
+      height: 70px;
+      transform: translate(70px, -35px);
+      padding: 10px;
+  }
