@@ -4,3 +4,8 @@ body{
     background-color: #111;
     font-family: 'Open Sans', sans-serif;
 }
+
+h3{
+    color: white;
+    text-align: center;
+}
