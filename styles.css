@@ -54,3 +54,10 @@ h3{
       text-transform: capitalize;
       text-align: center;
   }
+
+  .album .artist{
+      font-size: 12px;
+      font-weight: 100;
+      text-transform: uppercase;
+      text-align: center;
+  }
