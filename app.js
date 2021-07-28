@@ -7,7 +7,15 @@ const itemsTotal = document.querySelector(".items-total");
 const saveBtn = document.querySelector(".button");
 
 
-
+const albumsSelected=[];
+let i = 0;
+while( i < albums.length){
+    albums[i].onclick = function(e){
+        console.log('clicked an album');
+    }
+    console.log(i)
+    i++
+};
 
 
 
