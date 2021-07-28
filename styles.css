@@ -97,3 +97,27 @@ h3{
       padding: 10px 0 10px 13px;
   }
 
+.git > .circle{
+    background-color: #38ad65;
+}
+
+.rd > .info span:first-child {
+    color: #de3b12;
+  }
+  
+  .or > .circle {
+    background-color: #c87a46;
+  }
+  
+  .or > .info span:first-child {
+    color: #c87a46;
+  }
+  
+  .bl > .circle {
+    background-color: #225877;
+  }
+  
+  .bl > .info span:first-child {
+    color: #225877;
+  }
+  
