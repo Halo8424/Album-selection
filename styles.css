@@ -9,3 +9,15 @@ h3{
     color: white;
     text-align: center;
 }
+
+.button{
+    background: red;
+    width: 250px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 100px auto;
+    display: inline-block;
+    cursor: pointer;
+}
